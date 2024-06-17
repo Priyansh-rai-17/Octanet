@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in;
+}
+
+header{
+    width:100%;
+    height:100vh;
+    background-image: url(../img/bus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 30px 50px;
+}
+
+header nav #logo span{
+    position: relative;
+    color:#ffff;
+    bottom: 2.5rem;
+    left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+header nav #logo img{
+ width:20%;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    margin-left: 3rem;
+}
+
+header nav ul a{
+   list-style: none;
+   text-decoration: none;
+   font-size: 1.2rem;
+   color:#fff;
+}
+
+header .main{
+    width:100%;
+    height:90vh;
+    position: absolute;
+    top:3.5rem;
+}
+
+header .main img{
+    display:block;
+    margin: auto;
+    height:100%;
+    filter: drop-shadow(20px 20px 40px rgba(0,0,0,0));
+}
+
+.main .content{
+    width: 100%;
+    height:100%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.main .content .container{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: auto;
+    height:100%;
+}
+
+.todo{
+    display:flex;
+    padding: 12px;
+}
+
+.todo_value{
+    background: transparent;
+    color:red;
+    border: none;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    flex-grow: 1;
+    border-bottom: 2px solid rgba(94,41,21);
+}
+
+.todo_checkbox{
+
+}
+
+.todo:has(.todo_checkbox:checked){
+    color:rgb(84,15,0);
+    background:rgba(0,0,0,0.13);
+    text-decoration: line-through 1.5px;
+}
