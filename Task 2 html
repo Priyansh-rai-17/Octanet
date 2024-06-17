@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--font awesome--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!--font family-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!------style css---->
+    <link rel="stylesheet"  href="css/style.css">
+</head>
+<body>
+    <!-----header starts ----->
+    <div id="header">
+        <div class="box-container">
+        <div class="box">
+            <h1>Images</h1>
+        </div>
+        <div class="box">
+            <img src="img/mountain-2143877_1280.jpg" alt="">
+        </div>
+        <div class="box">
+            <h2>Menewtoring</h2>
+        </div>
+        <div class="box">
+            <h3>Addnewtoring</h3>
+        </div>
+        <div class="box">
+            <div class="socail">
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="fa fa-skype"></i></a>
+                <a href="#" class="linkedin"><i class="fa  fa-linkedin"></i></a>
+                </div>
+        </div>
+        </div>
+    </div>
+    <!------header starts---->
+    <!-----images starts---->
+    <div id="images">
+        <div class="box-container">
+            <div class="box">
+                <div class="content">
+                    <h1>popular</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Alias debitis
+                        ex cupiditate deserunt nostrum,
+                         
+                         </p>
+                </div>
+                <div class="img">
+                <img src="img/dubai-1085058_1280.jpg" alt="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="content1">
+                    <h1>popular</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Alias debitis
+                       ex cupiditate deserunt nostrum,
+                        
+                        </p>
+                </div>
+                <div class="img1">
+                <img src="img/road-6774756_1280.jpg" alt="">
+                </div>
+                <div class="img1">
+                <img src="img/news.jpg" alt="">
+                </div>
+            </div>
+            <div class="box">
+              <div class="back">
+                <img src="img/mag-Photoroom.png" alt="">
+                <div class="left">
+                <h3>privacy policies</h3><br>
+                <h3>Terms and confitoind</h3><br>
+                <h3>Contact Us</h3><br>
+                <h3>About Us</h3><br>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!----images starts----->
+</body>
+</html>
